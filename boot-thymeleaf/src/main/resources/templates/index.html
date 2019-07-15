@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+  <div>boot集成thymeleaf</div>
+  <div th:object="${user}">
+      <span th:text="*{name}">名字</span>
+      <span th:text="*{age}">年龄</span>
+      <span th:text="*{birth}">生日</span>
+  </div>
+</body>
+</html>
