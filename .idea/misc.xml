@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/boot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/boot-freemarker/pom.xml" />
         <option value="$PROJECT_DIR$/boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-servlet/pom.xml" />
       </list>
     </option>
   </component>

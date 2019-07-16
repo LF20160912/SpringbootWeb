@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/boot-freemarker/boot-freemarker.iml" filepath="$PROJECT_DIR$/boot-freemarker/boot-freemarker.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-jsp/boot-jsp.iml" filepath="$PROJECT_DIR$/boot-jsp/boot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-servlet/boot-servlet.iml" filepath="$PROJECT_DIR$/boot-servlet/boot-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-thymeleaf/boot-thymeleaf.iml" filepath="$PROJECT_DIR$/boot-thymeleaf/boot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-web/boot-web.iml" filepath="$PROJECT_DIR$/boot-web/boot-web.iml" />
     </modules>
