@@ -11,11 +11,9 @@
         <option value="$PROJECT_DIR$/boot-freemarker/pom.xml" />
         <option value="$PROJECT_DIR$/boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/boot-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-jdbc/pom.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/boot-servlet/src/main/resources/public.error.ex404.html" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
