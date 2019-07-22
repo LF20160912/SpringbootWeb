@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/boot-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/boot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-aop/pom.xml" />
       </list>
     </option>
   </component>

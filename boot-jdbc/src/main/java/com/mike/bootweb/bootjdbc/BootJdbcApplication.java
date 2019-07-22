@@ -1,5 +1,6 @@
 package com.mike.bootweb.bootjdbc;
 
+import com.mike.bootweb.bootjdbc.Impl.UserDaoImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -23,6 +24,10 @@ public class BootJdbcApplication {
 
         //spring自动装配
         System.out.println(context.getBean(JdbcTemplate.class));
+
+        //查询数据
+        UserDaoImpl userDao = context.getBean(UserDaoImpl.class);
+        System.out.println(userDao.selectOne(1));
         context.close();
     }
 

@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-web" />
-        <module name="boot-servlet" />
+        <module name="boot-thymeleaf" />
         <module name="boot-jdbc" />
         <module name="boot-jsp" />
         <module name="boot-freemarker" />
-        <module name="boot-thymeleaf" />
+        <module name="boot-aop" />
+        <module name="boot-servlet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boo-severlet" target="1.8" />
+      <module name="boot-aop" target="1.8" />
       <module name="boot-freemarker" target="1.8" />
       <module name="boot-jdbc" target="1.8" />
       <module name="boot-jsp" target="1.8" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boo-severlet" options="-parameters" />
+      <module name="boot-aop" options="-parameters" />
       <module name="boot-freemarker" options="-parameters" />
       <module name="boot-jdbc" options="-parameters" />
       <module name="boot-jsp" options="-parameters" />
